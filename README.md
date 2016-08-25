@@ -5,5 +5,8 @@ A Java command line application to extract email addresses from a website
 
 <h3>How to Run</h3>
 Download the .jar file and in the terminal type
-<pre>java -jar emailExtractor.jar YOUR_WEBSITE_URL (OPTIONAL ARG) -s YOUR_FILENAME</pre>
+<pre>java -jar emailExtractor.jar YOUR_WEBSITE_URL</pre>
 
+<h3>Save Email Addresses to Text File</h3>
+The -s command allows you to save the extracted email address in a text file, the command is as follow
+<pre>java -jar emailExtractor.jar YOUR_WEBSITE_URL (OPTIONAL ARG) -s YOUR_FILENAME</pre>
